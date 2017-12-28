@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>修改户外活动</title>
+<script type="text/javascript" src="../js/jquery/jquery.js"></script>
+<script type="text/javascript" src="../js/main/updateActivityDetail.js"></script>
+</head>
+<body>
+	<h1>修改户外活动</h1>
+	<form name="userForm2" action="/cqkzcyw/rest/activityDetail/updateActivityDetail"
+		enctype="multipart/form-data" method="post">
+		<span>活动ID：</span><input type="text" name="detail_id" id="detail_id" readonly><br>
+		<span>活动标题：</span><input type="text" name="detail_top" id="detail_top" ><br>
+		<span>活动名称：</span><input type="text" name="detail_name" id="detail_name"><br>
+		<span>活动介绍：</span><input type="text" name="detail_introduction" id="detail_introduction"><br>
+		<span>消费水平：</span><input type="text" name="detail_sale" id="detail_sale"><br>
+		<span>交通情况：</span><input type="text" name="detail_traffic" id="detail_traffic"><br>
+		<span>商家联系方式：</span><input type="text" name="detail_contact" id="detail_contact"><br>
+		<div id="newUpload2">
+		<span>照片一：</span><input type="file" name="file" id="detail_pic1"><br>
+		<span>照片二：</span><input type="file" name="file" id="detail_pic2"><br>
+		<span>照片三：</span><input type="file" name="file" id="detail_pic3"><br>
+		<span>照片四：</span><input type="file" name="file" id="detail_pic4"><br>
+		<span>照片五：</span><input type="file" name="file" id="detail_pic5"><br>
+		</div>
+		<input type="submit" value="提交">
+	</form>
+</body>
+</html>

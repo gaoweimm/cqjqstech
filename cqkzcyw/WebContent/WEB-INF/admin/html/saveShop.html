@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>添加商家信息</title>
+</head>
+<body>
+	<h1>添加商家信息</h1>
+	<form name="userForm2" action="/cqkzcyw/rest/shop/saveShop"
+		enctype="multipart/form-data" method="post">
+		<span>商家名称：</span><input type="text" name="shop_name"><br>
+		<span>商家地址：</span><input type="text" name="shop_address"><br>
+		<span>联系人一：</span><input type="text" name="contact_person1"><br>
+		<span>联系人二：</span><input type="text" name="contact_person2"><br>
+		<span>联系QQ：</span><input type="text" name="contact_qq"><br>
+		<span>电子邮件：</span><input type="text" name="contact_email"><br>
+		<span>手机号码：</span><input type="text" name="contact_phone"><br>
+		<span>固定电话：</span><input type="text" name="contact_number"><br>
+		<span>详情名称：</span><input type="text" name="detail_name"><br>
+		<span>商家介绍：</span><input type="text" name="detail_introduction"><br>
+		<span>消费水平：</span><input type="text" name="detail_sale"><br>
+		<span>交通情况：</span><input type="text" name="detail_traffic"><br>
+		<span>联系方式：</span><input type="text" name="detail_contact"><br>
+
+		<div id="newUpload2">
+			<span>照片一：</span><input type="file" name="file"><br>
+			<span>照片二：</span><input type="file" name="file"><br>
+			<span>照片三：</span><input type="file" name="file"><br>
+			<span>照片四：</span><input type="file" name="file"><br>
+			<span>照片五：</span><input type="file" name="file"><br>
+		</div>
+		<input type="submit" value="提交">
+	</form>
+</body>
+</html>

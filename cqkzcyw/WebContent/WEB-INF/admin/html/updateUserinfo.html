@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../js/jquery/jquery.js"></script>
+<script type="text/javascript" src="../js/main/updateUserinfo.js"></script>
+</head>
+<body>
+<h1>修改商家信息</h1>
+	<form name="userForm2" action="/cqkzcyw/rest/userinfo/updateUserinfo" method="post">
+		<span>用户id：</span><input type="text" name="oper_id" id="oper_id" readonly><br>
+		<span>用户名称：</span><input type="text" name="oper_name" id="oper_name"><br>
+		<span>QQ：</span><input type="text" name="oper_qq" id="oper_qq"><br>
+		<span>联系人电话：</span><input type="text" name="oper_phone" id="oper_phone"><br>
+		<span>用户编码：</span><input type="text" name="oper_no" id="oper_no"><br>
+		<span>用户密码：</span><input type="text" name="oper_pwd" id="oper_pwd"><br>
+		<span>用户类型：</span><input type="text" name="oper_type" id="oper_type"><br>
+		<span>用户状态：</span><input type="text" name="oper_flag" id="oper_flag"><br>
+		<input type="submit" value="提交">
+	</form>
+</body>
+</html>

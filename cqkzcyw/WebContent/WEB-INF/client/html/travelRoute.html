@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>重庆开州村游网</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.min.2.1.4.js"></script>
+<script type="text/javascript" src="../../admin/js/common/WebUtil.js"></script>
+<script type="text/javascript"
+	src="../../admin/js/jquery/jquerysession.js"></script>
+<script type="text/javascript" src="../js/travelRoute.js"></script>
+</head>
+<body class="bg">
+
+	<div class="top">
+		<div class="top_content text_small">
+			<span class=" float_right"><span class=" cursor"
+				id="userinfo_oper_no"></span></span> <span class="text_small align_left">服务热线：00000000000</span>
+		</div>
+	</div>
+	<div class="top_img"></div>
+
+	<div class="top_column">
+		<div class="column_content">
+			<a href="main.html"><div class="column_title">首页</div></a>
+			<div class="column_title_line"></div>
+			<div class="column_title">农家乐</div>
+			<div class="column_title_line"></div>
+			<div class="column_title">采摘园</div>
+			<div class="column_title_line"></div>
+			<div class="column_title">垂钓园</div>
+			<div class="column_title_line"></div>
+			<div class="column_title">关于我们</div>
+			<div class="column_title_line"></div>
+			<div class="column_title">联系我们</div>
+		</div>
+	</div>
+
+	<!-- 旅游行程 上半部 begin -->
+	<div class="contents">
+		<div class="padding_blank10"></div>
+		<div>
+			<span class="custom_green bold">旅游行程</span> <span class="custom_more"><span
+				class="no_cursor">你的位置：首页>旅游行程</span></span>
+		</div>
+		<div class="custom_line_green"></div>
+
+		<div class="travel_route_main">
+			<img src="" class="travel_route_img" id="detail_pic1" />
+
+			<div class="travel_route_summary" id="detail_introduction">
+				<div class=" custom_yellow text_middle bold" id="detail_name">金刀峡庄梦草堂</div>
+				<div class="padding_blank10"></div>
+
+			</div>
+		</div>
+		<div class="padding_blank10"></div>
+	</div>
+	<!-- 旅游行程 上半部 end -->
+
+	<!-- 旅游行程 下半部 begin -->
+	<div class="contents">
+		<div class="tabbox">
+			<ul class="tabs">
+				<li class="thistab"><a href="javascript:void(0);" tab="tab1"
+					onClick="document.getElementById('tab_con2').style.display ='none';document.getElementById('tab_con1').style.display ='block'">农家简介</a>
+				</li>
+				<li class=""><a href="javascript:void(0)" tab="tab2"
+					onClick="document.getElementById('tab_con1').style.display ='none';document.getElementById('tab_con2').style.display ='block'">我要评价</a>
+				</li>
+			</ul>
+
+			<ul class="tab_conbox">
+				<li class="tab_con" id="tab_con1" style="display: block;">
+					<div class="travel_route_sum_row">
+						<div class="travel_route_label">
+							<div>消费指南：</div>
+							<div>交通指南：</div>
+							<div>联系方式：</div>
+						</div>
+						<div class="travel_route_line"></div>
+						<div class="travel_route_text">
+							<div>
+								<span class="red" id="detail_sale">120</span>元/5人
+							</div>
+							<div id="detail_traffic">开州</div>
+							<div id="detail_contact">XXXXXXXXX</div>
+						</div>
+						<!--  
+						<div class="travel_route_btn">我要预订</div>
+						-->
+					</div>
+
+					<div class="travel_route_browse">农家浏览</div>
+
+					<div class="travel_route_img_box">
+						<img src="" class="travel_route_browse_img" id="detail_pic2" /> <img
+							src="" class="travel_route_browse_img" id="detail_pic3" /> <img
+							src="" class="travel_route_browse_img" id="detail_pic4" /> <img
+							src="" class="travel_route_browse_img" id="detail_pic5" />
+					</div>
+				</li>
+
+				<li class="tab_con" id="tab_con2">
+					<div class="travel_route_sum_row">
+						<div class="travel_route_label">
+							<div class="travel_comment_percent">98%</div>
+							<div>好评度</div>
+						</div>
+						<div class="travel_route_line"></div>
+						<div class="travel_comment_list">
+							<div class="label_right">不错哟</div>
+							<div class="percent_row">
+								<div class="percent_all">
+									<span class="percent_occupy" style="width: 90%;"></span>
+								</div>
+							</div>
+							<div class="label_left">90%</div>
+
+							<div class="label_right">待提高</div>
+							<div class="percent_row">
+								<div class="percent_all">
+									<span class="percent_occupy" style="width: 20%;"></span>
+								</div>
+							</div>
+							<div class="label_left">20%</div>
+
+							<div class="label_right">小失落</div>
+							<div class="percent_row">
+								<div class="percent_all">
+									<span class="percent_occupy" style="width: 10%;"></span>
+								</div>
+							</div>
+							<div class="label_left">10%</div>
+						</div>
+
+						<div class="travel_route_line"></div>
+						<div class="travel_comment_integrate">
+							<div class="padding_blank"></div>
+							<div class="">发布评价即可获10积分</div>
+							<div class="padding_blank10"></div>
+							<div class="padding_blank10"></div>
+							<div class="">APP上传图片并晒单可获得20积分，前2名可获双倍积分。</div>
+						</div>
+					</div> <!-- 全部评论 begin -->
+					<div class="travel_comment_all">
+						<div class="travel_comment_type">
+							<div class="custom_checked" id="comments"></div>
+							<div class="float_left">全部评论（8591）</div>
+						</div>
+						<div class="travel_comment_type">
+							<div class="custom_check" id="not_bat"></div>
+							<div class="float_left">不错哟（8412）</div>
+						</div>
+						<div class="travel_comment_type">
+							<div class="custom_check" id="improve"></div>
+							<div class="float_left">待提高（136）</div>
+						</div>
+						<div class="travel_comment_type">
+							<div class="custom_check" id="lose"></div>
+							<div class="float_left">小失落（43）</div>
+						</div>
+
+					</div> <!-- 全部评论 end -->
+					<div class="score_row" style="margin-left: 30px;">
+						<div class="score_user">
+							<img src="../img/outing_7.jpg" class="head_img" />
+							<div id="comment_oper_no"></div>
+						</div>
+						<div class="score_info">
+							<div class="score_label">评分：</div>
+							<div class="score_txt">
+								<div class="score_start"></div>
+								<div class="score_start"></div>
+								<div class="score_start"></div>
+								<div class="score_start"></div>
+								<div class="score_start"></div>
+							</div>
+
+							<div class="score_label">内容：</div>
+							<div class="score_txt" contenteditable="true"
+								style="border: 1px solid #F00;height:65px;" id="comment_text"></div>
+
+							<div class="score_label"></div>
+							<button id="btn" onclick="saveComment()">提交评论</button>
+
+						</div>
+						<div class=" clear"></div>
+					</div> <!-- 评分 being -->
+					<div class="score_box" id="score_box">
+						<div class="clear"></div>
+						<!-- 评分 end -->
+
+						<!--   <div class="score_row">
+                        <div class="score_user">
+                            <img src="../img/outing_7.jpg" class="head_img" />
+                            <div>135****9745</div>
+                        </div>
+                        <div class="score_info">
+                            <div class="score_label">评分：</div>
+                            <div class="score_txt">
+                                <div class="score_start"></div>
+                                <div class="score_start"></div>
+                                <div class="score_start"></div>
+                                <div class="score_start"></div>
+                                <div class="score_start"></div>
+                            </div>
+                        
+                            <div class="score_label">内容：</div>
+                            <div class="score_txt">此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~</div>
+                            
+                            <div class="score_label"></div>
+                            <div class="score_txt">2017-03-16 14：32：36</div>
+                            
+                        </div>
+                        <div class=" clear"></div>
+                    </div>
+                    
+                    <div class="score_row">
+                        <div class="score_user">
+                            <img src="../img/outing_7.jpg" class="head_img" />
+                            <div>135****9745</div>
+                        </div>
+                        <div class="score_info">
+                            <div class="score_label">评分：</div>
+                            <div class="score_txt">
+                                <div class="score_start"></div>
+                                <div class="score_start"></div>
+                                <div class="score_start"></div>
+                                <div class="score_start"></div>
+                                <div class="score_start"></div>
+                            </div>
+                        
+                            <div class="score_label">内容：</div>
+                            <div class="score_txt">此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~</div>
+                            
+                            <div class="score_label"></div>
+                            <div class="score_txt">2017-03-16 14：32：36</div>
+                            
+                        </div>
+                        <div class=" clear"></div>
+                    </div>
+                    
+                    <div class="score_row">
+                        <div class="score_user">
+                            <img src="../img/outing_7.jpg" class="head_img" />
+                            <div>135****9745</div>
+                        </div>
+                        <div class="score_info">
+                            <div class="score_label">评分：</div>
+                            <div class="score_txt">
+                                <div class="score_start"></div>
+                                <div class="score_start"></div>
+                                <div class="score_start"></div>
+                                <div class="score_start"></div>
+                                <div class="score_start"></div>
+                            </div>
+                        
+                            <div class="score_label">内容：</div>
+                            <div class="score_txt">此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~此人没有写文字好评~</div>
+                            
+                            <div class="score_label"></div>
+                            <div class="score_txt">2017-03-16 14：32：36</div>
+                            
+                        </div> 
+                        <div class=" clear"></div>
+                    </div>-->
+					</div>
+					<!-- score_box end -->
+					<div class="padding_blank10"></div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 旅游行程 下半部 end -->
+
+	<!-- copyright begin -->
+	<div class="contents">
+		<div class="padding_blank10"></div>
+		<div class="copyright">
+			<div class="padding_blank"></div>
+			<div class="padding_blank10"></div>
+			<div class="text_large  float_right">
+				重庆农家乐网<span class="space36"></span>
+			</div>
+			<div class="padding_blank10"></div>
+			<div class="align_center">
+				copyright 2005.agnjl.com,ALLRi zhts Reserved. <span class="gray333">渝ICP备05001542号</span>版权所以
+				未经书面许可，不得以任何形式转载和使用。
+			</div>
+			<div class="align_center">地址：重庆渝北回兴销海联路——号 电话：13072345411
+				E-mail：vulongchan@sina.com</div>
+		</div>
+	</div>
+	<!-- copyright end -->
+
+</body>
+</html>

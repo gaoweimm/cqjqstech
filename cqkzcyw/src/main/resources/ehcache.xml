@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<diskStore path="D:\cache" />
+	<defaultCache maxElementsInMemory="1000" eternal="false"
+		overflowToDisk="true" timeToIdleSeconds="120" timeToLiveSeconds="180"
+		diskPersistent="false" diskExpiryThreadIntervalSeconds="60" />
+	<cache name="com.hgpm.cqkzcyw.entity.ActivityDetail"
+		maxElementsInMemory="100" eternal="false" overflowToDisk="true"
+		timeToIdleSeconds="300" timeToLiveSeconds="600" diskPersistent="false" />
+	<cache name="com.hgpm.cqkzcyw.entity.Shop"
+		maxElementsInMemory="100" eternal="false" overflowToDisk="true"
+		timeToIdleSeconds="300" timeToLiveSeconds="600" diskPersistent="false" />
+	<cache name="com.hgpm.cqkzcyw.entity.ShopDetail"
+		maxElementsInMemory="100" eternal="false" overflowToDisk="true"
+		timeToIdleSeconds="300" timeToLiveSeconds="600" diskPersistent="false" />
+</ehcache>

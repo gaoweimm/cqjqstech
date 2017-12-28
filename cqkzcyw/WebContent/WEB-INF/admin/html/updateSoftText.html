@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>修改软文</title>
+<script type="text/javascript" src="../js/jquery/jquery.js"></script>
+<script type="text/javascript" src="../js/main/updateSoftText.js"></script>
+</head>
+<body>
+	<h1>修改软文</h1>
+	<form name="userForm2" action="/cqkzcyw/rest/softText/updateSoftText" method="post">
+		<span>软文ID：</span><input type="text" name="soft_text_id" id="soft_text_id" readonly><br>
+		<span>软文标题：</span><input type="text" name="soft_top" id="soft_top"><br>
+		<span>软文内容：</span><input type="text" name="soft_text_body" id="soft_text_body"><br>
+		<span>软文类型：</span><input type="text" name="soft_text_type" id="soft_text_type"><br>
+		<input type="submit" value="提交">
+	</form>
+</body>
+</html>

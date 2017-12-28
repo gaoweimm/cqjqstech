@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>添加活动</title>
+</head>
+<body>
+	<h1>添加活动</h1>
+	<form name="userForm2" action="/cqkzcyw/rest/activityDetail/saveActivityDetail"
+		enctype="multipart/form-data" method="post">
+		<span>活动标题：</span><input type="text" name="detail_top"><br>
+		<span>活动名称：</span><input type="text" name="detail_name"><br>
+		<span>活动介绍：</span><input type="text" name="detail_introduction"><br>
+		<span>消费水平：</span><input type="text" name="detail_sale"><br>
+		<span>交通情况：</span><input type="text" name="detail_traffic"><br>
+		<span>商家联系方式：</span><input type="text" name="detail_contact"><br>
+		<span>户外类型：</span><input type="text" name="detail_type"><br>
+		<span>商家id：</span><input type="text" name="shop_id"><br>
+		<div id="newUpload2">
+		<span>照片一：</span><input type="file" name="file"><br>
+		<span>照片二：</span><input type="file" name="file"><br>
+		<span>照片三：</span><input type="file" name="file"><br>
+		<span>照片四：</span><input type="file" name="file"><br>
+		<span>照片五：</span><input type="file" name="file"><br>
+		</div>
+		<input type="submit" value="提交">
+	</form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>修改通知消息</title>
+<script type="text/javascript" src="../js/jquery/jquery.js"></script>
+<script type="text/javascript" src="../js/main/updateNoticeMessage.js"></script>
+</head>
+<body>
+	<h1>修改通知消息</h1>
+	<form name="userForm2" action="/cqkzcyw/rest/noticeMessage/updateNoticeMessage" method="post">
+		<span>消息ID：</span><input type="text" name="message_id" id="message_id" readonly><br>
+		<span>消息标题：</span><input type="text" name="notice_top" id="notice_top"><br>
+		<span>消息内容：</span><input type="text" name="notice_message_body" id="notice_message_body"><br>
+		<span>消息类型：</span><input type="text" name="notice_message_type" id="notice_message_type"><br>
+		<input type="submit" value="提交">
+	</form>
+</body>
+</html>
